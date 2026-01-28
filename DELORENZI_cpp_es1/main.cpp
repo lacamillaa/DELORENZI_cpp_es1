@@ -19,5 +19,11 @@ int main() {
         std::cout << i << " ";
     }
     std::cout << std::endl;
+    if (numeri[0] < 0) {
+        std::cout << "L'array contiene valori negativi" << std::endl;
+    }
+    else {
+        std::cout << "L'array non contiene valori negativi" << std::endl;
+    }
     return 0;
 }
